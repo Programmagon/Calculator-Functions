@@ -1,24 +1,24 @@
-# 🎯 Taschenrechner-Einzelspiel: Das Signum-Rätsel
+# Number Guessing Game
 
-### 1. Vorbereitung (Calculation Mode)
-* Generiere die Zahl: `RanInt#(1, 100)` `=`
-* Speichere sie verdeckt: `STO` → `A` (Taste `(-)`)
-* Lösche das Display: `AC`
-
----
-
-### 2. Formel im Tabellenmodus eingeben (Table Mode)
-* Wechsle in den Tabellenmodus (`MENU` `5`).
-* Gib die Indikator-Funktion ein:
-
-  $$f(x) = \frac{x - A}{|x - A|}$$
+### 1. Preparation (Calculation Mode)
+* Generate number: `RanInt#(1; 100)` `=`
+* Store while sceen is covered: `STO` → `A` (Taste `(-)`)
+* Clear sceen: `AC`
 
 ---
 
-### 3. Auswertung der Anzeige
+### 2. Enter function (Table Mode)
+* Switch to `table mode` (`MENU` `5`).
+* Enter game function:
 
-| Display | Bedeutung | Zustand |
+  $f(x) = \frac{x - A}{|x - A|}$
+
+---
+
+### 3. Result
+
+| Display | Meaning | State |
 | :---: | :--- | :--- |
-| **`-1`** | Du bist **unter** der Zahl ($x < A$) | Zu klein geraten |
-| **`1`** | Du bist **über** der Zahl ($x > A$) | Zu groß geraten |
-| **`ERROR`** *(Division durch 0)* | Du bist **auf** der Zahl ($x = A$) | **Treffer! 🎉** |
+| **`-1`** |  too **small** ($x < A$) | Your number must be bigger |
+| **`1`** | too **big** ($x > A$) | Your number must be smaller  |
+| **`ERROR`** *(Division durch 0)* | Du bist **auf** der Zahl ($x = A$) | **You found it! 🎉** |
