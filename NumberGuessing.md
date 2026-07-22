@@ -8,7 +8,7 @@
 ---
 
 ### 2. Enter function (Table Mode)
-* Switch to `table mode` (`MENU` `5`).
+* Switch to `table mode`
 * Enter game function:
 
   $f(x) = \frac{x - A}{|x - A|}$
