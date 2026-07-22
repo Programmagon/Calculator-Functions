@@ -21,4 +21,4 @@
 | :---: | :--- | :--- |
 | **`-1`** |  too **small** ($x < A$) | Your number must be bigger |
 | **`1`** | too **big** ($x > A$) | Your number must be smaller  |
-| **`ERROR`** *(Division durch 0)* | Du bist **auf** der Zahl ($x = A$) | **You found it! 🎉** |
+| **`ERROR`** *(division through 0)* | You are **on** the number ($x = A$) | **You found it! 🎉** |
